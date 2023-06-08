@@ -49,6 +49,6 @@ const rockets = [
     {city:"brasa4", launches: 6}
 ]
 
-const ttlLaunches = rockets.reduce((prevVal, elem) => prevVal + elem.launches);
+const ttlLaunches = rockets.reduce((prevVal, elem) => prevVal + elem.launches, 0);
 
 console.log(ttlLaunches);
